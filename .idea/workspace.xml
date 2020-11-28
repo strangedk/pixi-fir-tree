@@ -7,7 +7,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1kNnblz1TdOyASA5S5kjbVHpKR6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,9 +26,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../pixi-typescript-boilerplate" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\mine\pixi-starter\starter\webpack-starter-kit-pixijs-master\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\mine\wsa\trees\pixi-fir-tree\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -36,6 +47,13 @@
       <option name="presentableId" value="Default" />
       <updated>1605549990870</updated>
       <workItem from="1605549991933" duration="4910000" />
+      <workItem from="1606335392438" duration="1196000" />
+      <workItem from="1606336603998" duration="16322000" />
+      <workItem from="1606396803981" duration="598000" />
+      <workItem from="1606411710217" duration="16368000" />
+      <workItem from="1606483256335" duration="632000" />
+      <workItem from="1606486859467" duration="15000" />
+      <workItem from="1606497605749" duration="19637000" />
     </task>
     <servers />
   </component>
@@ -43,9 +61,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1605550538972">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606483293972">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1605550538972" />
+    <state x="500" y="185" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1606483293972" />
+    <state x="376" y="195" key="run.anything.popup" timestamp="1606340918975">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="376" y="195" key="run.anything.popup/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1606340918975" />
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1606428175474">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="383" y="180" width="672" height="678" key="search.everywhere.popup/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1606428175474" />
   </component>
 </project>

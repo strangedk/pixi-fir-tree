@@ -4,11 +4,13 @@
   "description": "pixi-typescript-boilerplate",
   "main": "./src/index.html",
   "scripts": {
-    "start": "webpack-dev-server --content-base src --open --hot --inline"
+    "start": "webpack-dev-server --content-base src --open --hot --inline",
+    "build": "webpack --content-base src"
   },
   "author": "strangedk",
   "license": "MIT",
   "dependencies": {
+    "gsap": "^3.5.1",
     "pixi.js": "^5.3.3"
   },
   "devDependencies": {

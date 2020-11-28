@@ -1,4 +1,4 @@
-# pixi-fir-tree
+# pixi-typescript-boilerplate
 
 Based on webpack-starter-kit-pixijs
 https://github.com/jasesnider/webpack-starter-kit-pixijs
@@ -9,10 +9,6 @@ If you got an error about 'module not found', please check *@types* for this mod
 
 Also don't forget to add unusable file types into the *.gitignore*
 
-Steps to run development build with hot reload:
+Steps:
 1. npm i
 2. npm start
-
-Steps to run production build
-1. npm i
-2. npm run-script build

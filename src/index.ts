@@ -1,10 +1,10 @@
 import * as PIXI from 'pixi.js';
-
-const examplePNG: string = './assets/pixi.png';
+import ResourceService from "./resources/ResourceService";
+import Game from "./Game";
 
 const options: object = {
-  width: 800,
-  height: 600,
+  width: 1928,
+  height: 697,
   antialias: true,
   transparent: true,
 };
@@ -12,23 +12,20 @@ const options: object = {
 const app: PIXI.Application = new PIXI.Application(options);
 
 const init = () => {
-  PIXI.Loader.shared.add(examplePNG).load(result => {
-    const resource = result.resources[examplePNG];
-
-    const sprite = new PIXI.Sprite(resource.texture);
-    sprite.anchor.set(0.5);
-    sprite.x = app.renderer.width / 2;
-    sprite.y = app.renderer.height / 2;
-
-    app.stage.addChild(sprite);
-    app.ticker.add((delta: number) => loop(sprite, delta));
+  ResourceService.init(() => {
+    const game: Game = new Game(app);
+    app.stage.addChild(game);
   });
-}
-
-const loop = (sprite: PIXI.Sprite, delta: number) => {
-  sprite.rotation += delta / 100;
 }
 
 init();
 
-document.body.appendChild(app.view);
+animate();
+function animate() {
+  requestAnimationFrame(animate);
+
+  app.renderer.render(app.stage);
+}
+
+const wrapper = document.getElementById('wrapper');
+wrapper!.appendChild(app.view);
