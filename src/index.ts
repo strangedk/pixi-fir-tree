@@ -2,9 +2,11 @@ import * as PIXI from 'pixi.js';
 import ResourceService from "./resources/ResourceService";
 import Game from "./Game";
 
-const options: object = {
-  width: 1928,
-  height: 697,
+const options: object = {  
+  // width: 1928,
+  // height: 697,
+  width: 1920,
+  height: 829,
   antialias: true,
   transparent: true,
 };

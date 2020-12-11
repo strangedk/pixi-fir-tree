@@ -86,6 +86,7 @@ class GameScreen extends PIXI.Container {
     }
 
     arrangeElements = () => {
+        const topOffset = 86;
         const {app, wrapper, controlPanel, bg, tree, gifts, buttonAddPhoto, buttonReady, toySprites} = this;
 
         wrapper.x = 0;
@@ -95,10 +96,10 @@ class GameScreen extends PIXI.Container {
         bg.y = app.renderer.height - bg.height;
 
         controlPanel.x = 38;
-        controlPanel.y = 38;
+        controlPanel.y = 38 + topOffset;
 
         tree.x = controlPanel.width + 70;
-        tree.y = 15;
+        tree.y = 100;
 
         gifts.x = tree.x + 74;
         gifts.y = app.renderer.height - gifts.height - 10;
@@ -114,7 +115,7 @@ class GameScreen extends PIXI.Container {
         buttonReady.buttonMode = true;
 
         const offsetX = -70;
-        const offsetY = -20;
+        const offsetY = -20 + topOffset;
 
         // Toys arrangement
         toySprites.toys[ResourceList.ELECTRO].defaultX = toySprites.toys[ResourceList.ELECTRO].x = offsetX + 700;

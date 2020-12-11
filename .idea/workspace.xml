@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="852ae31e-2890-4b8c-b704-7634d4f84684" name="Default Changelist" comment="" />
+    <list default="true" id="852ae31e-2890-4b8c-b704-7634d4f84684" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bubblegum" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="D:\mine\wsa\trees\pixi-fir-tree\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -54,6 +56,9 @@
       <workItem from="1606483256335" duration="632000" />
       <workItem from="1606486859467" duration="15000" />
       <workItem from="1606497605749" duration="19637000" />
+      <workItem from="1606650523757" duration="2862000" />
+      <workItem from="1606663920869" duration="14000" />
+      <workItem from="1607716899909" duration="9000" />
     </task>
     <servers />
   </component>
@@ -61,10 +66,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606483293972">
+    <state x="500" y="185" key="FileChooserDialogImpl" timestamp="1606663933343">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="185" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1606483293972" />
+    <state x="500" y="185" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1440.860@0.0.1440.860" timestamp="1606663933343" />
     <state x="376" y="195" key="run.anything.popup" timestamp="1606340918975">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
