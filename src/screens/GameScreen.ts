@@ -80,9 +80,9 @@ class GameScreen extends PIXI.Container {
 
         gsap.to(wrapper, {x: -400, duration: 2});
 
-        console.info('Done! Invoke window.newYearGameComplete() now');
+        console.info('Done! Invoke window.newYearGameComplete(app: PIXI.Application) now');
         const global = window as any;
-        global.newYearGameComplete && global.newYearGameComplete();
+        global.newYearGameComplete && global.newYearGameComplete(this.app);
     }
 
     arrangeElements = () => {
